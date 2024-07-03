@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Whoogle Search",
-  "version": "1.1",
-  "author": "flicko",
+  "version": "1.2",
+  "author": "Preston Hunter",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
@@ -20,9 +20,9 @@
     "search_provider": {
       "name": "Whoogle",
       "keyword": "@whoogle, @wg, @who, @wgl",
-      "search_url": "http://127.0.0.1:5000/search?q={searchTerms}",
+      "search_url": "http://whoogle.phx.hive.io:5000/search?q={searchTerms}",
       "favicon_url": "whoogleicon.png",
-      "suggest_url": "http://127.0.0.1:5000/search?q={searchTerms}",
+      "suggest_url": "http://whoogle.phx.hive.io:5000/search?q={searchTerms}",
       "is_default": true
     }
   }
